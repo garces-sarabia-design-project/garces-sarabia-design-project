@@ -1,3 +1,21 @@
 #title {
     font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#sub-header {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    margin: .5em;
+    background-color: #e6563b;
+    display: flex;
+    justify-content: center;
 }
