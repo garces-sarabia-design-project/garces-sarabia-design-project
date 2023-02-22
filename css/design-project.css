@@ -57,6 +57,14 @@
         justify-content: flex-end;
     }
 }
+@media screen and (max-width:991px){
+    .thumbnails {
+        display: none;
+    }
+
+
+}
+
 
 h6 {
     font-family: 'Abel', sans-serif;
@@ -68,13 +76,36 @@ h6 {
 
 .mini-circle {
     font-family: 'Anton', sans-serif;
-    width: 2em;
-    height: 2em;
-    border-radius: 1em;
+    font-size: small;
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em;
     /*margin: 0.5em;*/
     padding: 18px;
-    background-color: #e6563b;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.featured {
+    font-family: 'Abel', sans-serif;
+    font-size: medium;
+    color: black;
+}
+.mini-design {
+    background-color: #e6563b;
+}
+.mini-develop {
+    background-color: #eb9d3a;
+}
+.mini-support {
+    background-color: #7cb06c;
+}
+.mini-host {
+    background-color: #00aba9;
+}
+
+.thumbnail-title {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+
 }
