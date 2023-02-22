@@ -1,3 +1,12 @@
+* {
+    background-color: lightgray;
+}
+
+.nav-bar {
+    padding: 0;
+    background-color: lightgray;
+}
+
 #title {
     font-family: 'Anton', sans-serif;
     font-size: xx-large;
@@ -11,11 +20,39 @@
 }
 
 .circle {
-    width: 2em;
-    height: 2em;
-    border-radius: 1em;
+    width: 5em;
+    height: 5em;
+    border-radius: 3em;
+    border: white solid;
     margin: .5em;
-    background-color: #e6563b;
+    /*text feature*/
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+#design-color {
+    background-color: #e6563b;
+}
+#develop-color {
+    background-color: #eb9d3a;
+}
+#host-color {
+    background-color: #00aba9;
+}
+#support-color {
+    background-color: #7cb06c;
+}
+
+@media screen and (max-width:767px) {
+    #design {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #support {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
