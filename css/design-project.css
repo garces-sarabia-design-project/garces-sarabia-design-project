@@ -61,8 +61,6 @@
     .thumbnails {
         display: none;
     }
-
-
 }
 
 
@@ -77,18 +75,17 @@ h6 {
 .mini-circle {
     font-family: 'Anton', sans-serif;
     font-size: small;
-    width: 3em;
-    height: 3em;
-    border-radius: 1.5em;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
     /*margin: 0.5em;*/
-    padding: 18px;
+    /*padding: 18px;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .featured {
     font-family: 'Abel', sans-serif;
-    font-size: medium;
     color: black;
 }
 .mini-design {
