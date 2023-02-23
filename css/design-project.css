@@ -70,9 +70,7 @@
         display: flex;
         justify-content: flex-end;
     }
-    #id {
-        height:20em;
-    }
+
     #title {
         font-size: 40px;
     }
