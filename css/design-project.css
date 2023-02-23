@@ -31,9 +31,6 @@
     border: white solid;
     margin: .5em;
     /*text feature*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Anton', sans-serif;
 }
 
@@ -66,10 +63,6 @@
         display: flex;
         justify-content: flex-start;
     }
-    .mini-circle {
-        display: flex;
-        justify-content: flex-end;
-    }
 
     #title {
         font-size: 40px;
@@ -100,9 +93,6 @@ h6 {
     width: 18px;
     height: 18px;
     border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .featured {
     font-family: 'Abel', sans-serif;
