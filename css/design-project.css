@@ -5,11 +5,15 @@
 .nav-bar {
     padding: 0;
     background-color: #f0f0f0;
+    font-family: 'Abel', sans-serif;
+}
+.nav-link{
+    font-family: 'Abel', sans-serif;
 }
 
 #title {
     font-family: 'Anton', sans-serif;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
 }
 
@@ -56,7 +60,26 @@
         display: flex;
         justify-content: flex-end;
     }
+    .featured {
+        font-size: small;
+        padding-left: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .mini-circle {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #id {
+        height:20em;
+    }
 }
+@media screen and (max-width:991px){
+    .thumbnails {
+        display: none;
+    }
+}
+
 
 h6 {
     font-family: 'Abel', sans-serif;
@@ -66,15 +89,41 @@ h6 {
     background-color: #e6e6e6;
 }
 
+#security {
+    background-size: cover;
+}
+
 .mini-circle {
     font-family: 'Anton', sans-serif;
-    width: 2em;
-    height: 2em;
-    border-radius: 1em;
+    font-size: small;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
     /*margin: 0.5em;*/
-    padding: 18px;
-    background-color: #e6563b;
+    /*padding: 18px;*/
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.featured {
+    font-family: 'Abel', sans-serif;
+    color: black;
+}
+.mini-design {
+    background-color: #e6563b;
+}
+.mini-develop {
+    background-color: #eb9d3a;
+}
+.mini-support {
+    background-color: #7cb06c;
+}
+.mini-host {
+    background-color: #00aba9;
+}
+
+.thumbnail-title {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+
 }
