@@ -5,11 +5,15 @@
 .nav-bar {
     padding: 0;
     background-color: #f0f0f0;
+    font-family: 'Abel', sans-serif;
+}
+.nav-link{
+    font-family: 'Abel', sans-serif;
 }
 
 #title {
     font-family: 'Anton', sans-serif;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
 }
 
@@ -56,6 +60,19 @@
         display: flex;
         justify-content: flex-end;
     }
+    .featured {
+        font-size: small;
+        padding-left: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .mini-circle {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #id {
+        height:20em;
+    }
 }
 @media screen and (max-width:991px){
     .thumbnails {
@@ -70,6 +87,10 @@ h6 {
 }
 .img-thumbnail {
     background-color: #e6e6e6;
+}
+
+#security {
+    background-size: cover;
 }
 
 .mini-circle {
